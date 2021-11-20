@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1637435990 source:d:\estudo\projetos avulsos\calculadorac++\resource.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1637435990 d:\estudo\projetos avulsos\calculadorac++\resource.h
+
+1637436194 source:d:\estudo\projetos avulsos\wncalculadora v1.0\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+	<stdlib.h>
+	"resource.h"
+
+1637444572 d:\estudo\projetos avulsos\wncalculadora v1.0\resource.h
+

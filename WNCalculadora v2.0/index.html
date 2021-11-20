@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WN | Calculadora</title>
+
+    <link rel="stylesheet" href="style.css" />  
+
+</head>
+<body>
+    <div class="container">
+        <h5>versão 2.0</h5>
+            <div class="cabecalho">
+                <h4>CalculadoraJS</h4>
+            </div>
+                <div class="calculadora"><caption>Insira dois valores</caption>
+                    <br>
+                    <input class="input inputum" id="um" type="number" placeholder="x"></input>
+                    <input class="input inputdois" id="dois" type="number" placeholder="y"></input>
+                    <p id="resultado"></p>
+                    <br>
+                <table>
+                    <tr>
+                        <td><button class="botao" onclick="somar()">Somar</button></td>
+                        <td><button class="botao" onclick="multiplicar()">Multiplicar</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao" onclick="subtrair()">Subtrair</button></td>
+                        <td><button class="botao" onclick="dividir()">Dividir</button></td>
+                    </tr>
+                </table>
+                
+                </div>
+            
+    </div>
+
+        <script>
+            var x = document.querySelector('#um');
+            var y = document.querySelector('#dois');
+            var resultado = document.querySelector('#resultado');
+
+                function somar(){
+                    resultado.innerHTML = parseInt(x.value) + parseInt(y.value);
+                }
+
+                function subtrair(){
+                    resultado.innerHTML = parseInt(x.value) - parseInt(y.value);
+                }
+
+                function multiplicar(){
+                    resultado.innerHTML = parseInt(x.value) * parseInt(y.value);
+                }
+
+                function dividir(){
+                    resultado.innerHTML = parseInt(x.value) / parseInt(y.value);
+                }
+
+        </script>
+</body>
+</html>
